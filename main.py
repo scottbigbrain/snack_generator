@@ -68,7 +68,7 @@ def update_averages():
 		average_ratings[i] = total
 
 
-rating_num = 10;
+rating_num = 12;
 
 for i in range(rating_num):
 	set_index = random.randint(0, len(grouper.centroid_sets) - 1)

@@ -52,7 +52,7 @@ for snack in snacks:
 
 
 
-grouper = Grouper(grouping_dataset, centroid_num=6, stop_at=0)
+grouper = Grouper(grouping_dataset, centroid_num=10, stop_at=0)
 
 print("Training K Means")
 training_state = grouper.execute_algorithm()

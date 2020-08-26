@@ -5,41 +5,95 @@ fruit snacks
 mike and ikes
 corn nuts
 berry bars
-chocolate donuts
+chocolate donut
+glaze donut
+maple donut
+creme donut
+raspberry jelly donut
+strawberry jelly donut
+cinnamon donut
+sprinkle donut
+powdered sugar donut
+custard donut
+apple donut
+blueberry donut
 chocolate mints
-honey graham crackers
 colored shugar blocks
 puffed cheese balls
 creamy milk choclate
 creamy dark chocolate
 fudge cracker bars
 plain potato chips
+salt vinegar potato chips
+cheddar sour cream potato chips
+wavy potato chips
+honey barbcue potato chips
+lemon potato chips
+salt potato chips
 onion potato chips
 bbq potato chips
-chicken crackers
+chicken cracker
+peanut butter cracker
+cheese cracker
+whole wheat fishy cracker
+cheese and cracker
+salted cracker
 gummy fish
+gummy bears
+gummy worms
+gummy dragons 
+gummy unicorns
+sour fruit gummy
 nerds
-pretzels
+soft pretzel
+salt pretzel
+butter pretzel
+garlic pretzel
 red licorice
 black licorice
 coconut chocolate bar
 coconut bar
-peanut butter crackers
 jerky sticks
 beef jerky
 teryaki jerky
-fruit popsicles
+venison jerky
+buffalo jerky
+bacon jerky
+elk jerky
+barbecue jerky
+chicken jerky
+lamb jerky
+turkey jerky
+salmon jerky
+watermelon popsicle
+strawberry popsicle
+kiwi popsicle
+blueberry popsicle
+raspberry popsicle
+grape popsicle
+lime popsicle
 milk chocolate wafers
 dark chocolate wafers
+strawberry chocolate wafers
 milk chocolate caramel wafers
-gummy bears
 chocolate cake
 vanila cake
-chocolate strawberries
-strawberries
-blueberries
-huckliberries
-gummy worms
+raspberry cake
+carrot cake
+lemon cake
+strawberry cake
+coconut cake
+blueberry cake
+chocolate ice cream cake
+strawberry ice cream cake
+mint ice cream cake
+vanilla ice cream cake
+chocolate strawberry
+strawberry
+blueberry
+blackberry
+boysenberry
+huckleberry
 mint chocolate chip ice cream
 vanilla ice cream
 chocolate vanilla swirl ice cream
@@ -49,6 +103,8 @@ strawberry slushy
 fruit punch slushy
 carrots and ranch
 fruit punch juice
+orange juice
+pineapple juice
 chocolate brownie
 chocolate caramel brownie
 hard strawberry candy
@@ -67,7 +123,6 @@ white cheddar popcorn
 caramel pop corn
 marshmallow puffed corn bar
 fruit candy peices
-sour fruit gummy
 chocolate chip cookies
 chocolate chip brownies
 brownie with vanilla ice cream
@@ -76,7 +131,6 @@ peanut butter candy peices
 crunchy butterscotch bar
 peanut butter caramel chocolate bar
 chewy fruit candy
-cheese crackers
 chocolate candy peices
 cookies and creme cookie
 nacho cheese chips
@@ -97,15 +151,20 @@ boysenberry pie
 pecan pie
 pumpkin pie
 strawberry pie
-gummy dragons 
-gummy unicorns
 hard mint candy
 strawberry rhubarb pie
 tictaks
 dried mango
-dried cranberries
-whole wheat fishy crackers
+dried cranberry
+dried apple
+dried peach
+dried banana
 raspberry sorbet
+orange sorbet
+lemon sorbet
+cherry sorbet
+pineapple sorbet
+watermelon sorbet
 mango sorbet
 blueberry smoothie
 strawberry smoothie
@@ -132,7 +191,7 @@ waffles
 bubblegum
 fudge
 marshmallow
-marshmallow chocolate and crackers
+marshmallow chocolate and cracker
 oatmeal cookie
 peanut butter cookie
 churro
@@ -140,6 +199,10 @@ scone
 chocolate milk
 strawberry milk
 orange juice
-root beer
-root beer ice cream float
-cheese and crackers
+root beer soda
+orange soda
+grape soda
+lime soda
+cherry soda
+cream soda
+root beer soda ice cream float

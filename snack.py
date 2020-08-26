@@ -7,7 +7,11 @@ class Snack:
 
 	def __init__(self, snack_array, snack_word_vecs):
 		self.snack = snack_array
-		self.snack.remove('.')
+		if (self.snack.count('.') > 0):
+			periods = self.snack.count('.')
+			for i in range(periods):
+				self.snack.remove('.')
+				
 		self.snack_string = self.snack_to_string()
 
 		# store the vector form of each word in self.snack
