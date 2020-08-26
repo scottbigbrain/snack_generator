@@ -100,6 +100,7 @@ class Grouper:
 
 		self.previous_centroids = self.centroids
 
+		new_centroids = []
 		for i in range(len(self.centroids)):
 			centroid_set = []
 			for j in self.centroid_sets[i]:
@@ -107,10 +108,13 @@ class Grouper:
 
 			# print(dist_between( self.centroids[i], mean_coordinate(centroid_set) ))
 
-
 			set_mean = mean_coordinate(centroid_set)
+			# print("Set_mean dist: " + str(dist_between(self.centroids[i], set_mean)))
 
-			self.centroids[i] = set_mean
+			new_centroids.append(set_mean)
+			# print("previous_centroids dist: " + str(dist_between(self.previous_centroids[i], self.centroids[i])))
+
+		self.centroids = new_centroids
 
 		self.label_dataset()
 
@@ -119,7 +123,8 @@ class Grouper:
 			print("Training Complete")
 			return "Training complete"
 		else:
-			return "Training incomplete"
+			return "Training Incomplete"
+		# return "Training Incomplete"
 
 
 	def check_if_done(self):
@@ -133,18 +138,10 @@ class Grouper:
 
 		# print(distances)
 
+		ideal_distances = []
+		for i in range(len(distances)):
+			ideal_distances.append(0.0)
 
-		# find the highest value in distances
-
-		highest_dist = distances[0]
-		for dist in distances:
-			if (dist > highest_dist):
-				dist = highest_dist
-
-
-		# if the highest dist is less than our stop at than that means we can stop training
-
-		if (highest_dist <= self.stop_at):
-			return True
+		return distances == ideal_distances
 
 

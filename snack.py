@@ -7,7 +7,7 @@ class Snack:
 
 	def __init__(self, snack_array, snack_word_vecs):
 		self.snack = snack_array
-		self.snack.pop(len(self.snack) - 1)
+		self.snack.remove('.')
 		self.snack_string = self.snack_to_string()
 
 		# store the vector form of each word in self.snack
@@ -24,7 +24,7 @@ class Snack:
 		output = ''
 
 		for i in range(len(self.snack)):
-			output+= self.snack[i]
+			output += self.snack[i]
 
 			# dont add a space at the end
 			if (i < len(self.snack) - 1):

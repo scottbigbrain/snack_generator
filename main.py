@@ -49,25 +49,39 @@ grouper.centroid_sets = centroid_sets
 
 
 
+
+
 set_scores = []
 for i in range(len(grouper.centroid_sets)):
-	set_scores.append([])
+	set_scores.append([5])
 
-rating_num = 2;
-
-for i in range(rating_num):
-	for j in range(len(grouper.centroid_sets)):
-		snack = random.choice(grouper.centroid_sets[j]).snack_string
-		input_rating = float( input("On a scale of 1 to 10, how would you rate " + snack + ".  Answer: ") )
-		set_scores[j].append(input_rating)
-
-
-average_ratings = [[]] * len(grouper.centroid_sets)
+average_ratings = []
 for i in range(len(set_scores)):
-	total = 0
+	average_ratings.append(0)
+
+
+def update_averages():
+	for i in range(len(set_scores)):
+		total = 0
 	for j in range(len(set_scores[i])):
 		total += set_scores[i][j]
-	average_ratings[i] = total
+		average_ratings[i] = total
+
+
+rating_num = 10;
+
+for i in range(rating_num):
+	set_index = random.randint(0, len(grouper.centroid_sets) - 1)
+	c_set = grouper.centroid_sets[set_index]
+
+	snack = random.choice(c_set).snack_string
+	input_rating = float( input("On a scale of 1 to 10, how would you rate " + snack + ".  Answer: ") )
+	set_scores[set_index].append(input_rating)
+	update_averages()
+
+
+
+
 
 
 best_centroid_set = grouper.centroid_sets[0]

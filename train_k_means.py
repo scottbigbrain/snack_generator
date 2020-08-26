@@ -52,13 +52,16 @@ for snack in snacks:
 
 
 
-grouper = Grouper(grouping_dataset, centroid_num=4, stop_at=0)
+grouper = Grouper(grouping_dataset, centroid_num=6, stop_at=0)
 
 print("Training K Means")
 training_state = grouper.execute_algorithm()
 while (training_state == "Training Incomplete"):
 	print("Training K Means")
 	training_state = grouper.execute_algorithm()
+
+# for snack in grouper.dataset:
+# 	print(snack.snack)
 
 
 
