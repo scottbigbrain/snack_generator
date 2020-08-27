@@ -61,11 +61,18 @@ for i in range(len(set_scores)):
 
 
 def update_averages():
+	new_averages = []
 	for i in range(len(set_scores)):
 		total = 0
-	for j in range(len(set_scores[i])):
-		total += set_scores[i][j]
-		average_ratings[i] = total
+
+		for j in range(len(set_scores[i])):
+			total += set_scores[i][j]
+		
+
+		new_averages.append(total)
+
+	global average_ratings
+	average_ratings = new_averages
 
 
 rating_num = 12;
@@ -78,8 +85,6 @@ for i in range(rating_num):
 	input_rating = float( input("On a scale of 1 to 10, how would you rate " + snack + ".  Answer: ") )
 	set_scores[set_index].append(input_rating)
 	update_averages()
-
-
 
 
 
