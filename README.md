@@ -14,3 +14,7 @@ To use the models and get suggested new snacks, run main.py
 
 For training of Word2Vec and K Means you will need gensim and nltk,
 but for main.py where snacks are generated, you only need numpy, random and json.
+
+
+# See Dev and Demonstraions on Youtube
+https://www.youtube.com/playlist?list=PLlExR4hS66N5CtcDzcRbHBPSQiiA1Vs3q
